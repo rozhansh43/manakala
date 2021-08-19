@@ -1,0 +1,27 @@
+.bg-secondary {
+    background-color: #ebecee!important;
+}
+
+.bg-primary {
+    background-color: #007eff!important;
+}
+
+.bg-success {
+    background-color: #45bf55!important;
+}
+
+.bg-danger {
+    background-color: #ff286c!important;
+}
+
+.bg-info {
+    background-color: #3f4346 !important;
+}
+
+h2 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 13px;
+}
