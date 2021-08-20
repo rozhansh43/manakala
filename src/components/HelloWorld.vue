@@ -196,7 +196,7 @@
             </a>
           </slide>
 
-          <slide class="product-slider mx-3">
+          <slide class="product-slider mx-3 ">
             <a href="#" class="d-block text-decoration-none position-relative">
               <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
               </b-img>
