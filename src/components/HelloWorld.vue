@@ -104,101 +104,212 @@
     </div>
 
     <b-container fluid class="doll-cat">
-      <b-row>
-        <h2 class="header-logo">
-          <span>
+        <h2 class="main-title text-center">
+          <span class="position-relative">
             دسته بندی اسباب بازی ها
           </span>
         </h2>
 
-        <b-col>
-          <div>
-            <b-img class="w-100" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
+      <b-container>
+        <b-row>
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
 
-            </b-img>
-          </div>
-        </b-col>
+                </b-img>
+                <i class="plus-icons fa fa-plus"></i>
+              </div>
+            </a>
+          </b-col>
 
-        <b-col>
-          <div>
-            <b-img class="w-100" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/65_500_500_70_CropFromCenter.jpg">
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
 
-            </b-img>
-          </div>
-        </b-col>
+                </b-img>
+                <i class="plus-icons fa fa-plus"></i>
+              </div>
+            </a>
+          </b-col>
 
-        <b-col>
-          <div>
-            <b-img class="w-100" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/64_500_500_70_CropFromCenter.jpg">
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
 
-            </b-img>
-          </div>
-        </b-col>
+                </b-img>
+                <i class="plus-icons fa fa-plus"></i>
+              </div>
+            </a>
+          </b-col>
 
-        <b-col>
-          <div>
-            <b-img class="w-100" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/63_500_500_70_CropFromCenter.jpg">
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
 
-            </b-img>
-          </div>
-        </b-col>
+                </b-img>
+                <i class="plus-icons fa fa-plus"></i>
+              </div>
+            </a>
+          </b-col>
 
-        <b-col>
-          <div>
-            <b-img class="w-100" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/62_500_500_70_CropFromCenter.jpg">
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
 
-            </b-img>
-          </div>
-        </b-col>
-      </b-row>
+                </b-img>
+                <i class="plus-icons fa fa-plus"></i>
+              </div>
+            </a>
+          </b-col>
+        </b-row>
+      </b-container>
     </b-container>
 
     <b-container>
       <b-row>
         <carousel :perPageCustom="[[0, 2], [768, 3], [1024,3]]">
-          <slide class="bg-secondary">
-            Slide 1 Content
-            <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
-            </b-img>
-            <h4>
-              فیگور بچه دایناسور تیرکس MOJO کد 387192
-            </h4>
+          <slide class="product-slider">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
           </slide>
 
-          <slide>
-            Slide 2 Content
-            <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/954_150_150_70_CropFromCenter.jpg">
-            </b-img>
-            <h4>
-              فیگور شتر عربی MOJO کد 387113
-            </h4>
+          <slide class="product-slider mx-3">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
           </slide>
 
-          <slide>
-            Slide 2 Content
-            <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1140_150_150_70_CropFromCenter.jpg">
-            </b-img>
-            <h4>
-              اسباب بازی ست کیک تولد مدل 19A-889
-            </h4>
+          <slide class="product-slider">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
           </slide>
         </carousel>
       </b-row>
     </b-container>
 
-    <b-container>
+    <b-container class="bg-pattern" fluid>
       <b-row>
-        <h2>
-          انواع اسباب بازی برای رده های سنی مختلف
+        <h2 class="main-title">
+          <span class="position-relative">
+           انواع اسباب بازی برای رده های سنی مختلف
+          </span>
         </h2>
 
-        <b-col>
-          <div class="position-relative" >
-            <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/69_360_360_70_CropFromCenter.jpg">
+        <b-col sm="2">
+          <div class="position-relative rotate-hover">
+            <b-img class="img-fluid w-100 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/66_360_360_70_CropFromCenter.jpg">
             </b-img>
 
-            <h4 class="position-absolute top-0">
-              بالای 12 سال
+            <h4 class="position-absolute top-0 title">
+              <span>
+                بالای 12 سال
+              </span>
+            </h4>
+          </div>
+
+          <h4>
+            بالای 12 سال
+          </h4>
+        </b-col>
+        <b-col sm="2">
+          <div class="position-relative rotate-hover">
+            <b-img class="img-fluid w-100 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/71_360_360_70_CropFromCenter.jpg">
+            </b-img>
+
+            <h4 class="position-absolute top-0 title">
+              <span>
+                بالای 12 سال
+              </span>
+            </h4>
+          </div>
+
+          <h4>
+            بالای 12 سال
+          </h4>
+        </b-col>
+        <b-col sm="2">
+          <div class="position-relative rotate-hover">
+            <b-img class="img-fluid w-100 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/70_360_360_70_CropFromCenter.jpg">
+            </b-img>
+
+            <h4 class="position-absolute top-0 title">
+              <span>
+                بالای 12 سال
+              </span>
+            </h4>
+          </div>
+
+          <h4>
+            بالای 12 سال
+          </h4>
+        </b-col>
+        <b-col sm="2">
+          <div class="position-relative rotate-hover">
+            <b-img class="img-fluid w-100 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/69_360_360_70_CropFromCenter.jpg">
+            </b-img>
+
+            <h4 class="position-absolute top-0 title">
+              <span>
+                بالای 12 سال
+              </span>
             </h4>
           </div>
 
@@ -209,6 +320,29 @@
       </b-row>
     </b-container>
 
+    <b-container>
+      <b-row>
+        <h2>
+          <span>
+
+          </span>
+        </h2>
+
+        <div>
+          <carousel :perPageCustom="[[0, 2], [768, 7], [1024,7]]">
+            <slide>
+              <a href="">
+                <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/542_149_149_72_CropFromCenter.png">
+                </b-img>
+              </a>
+            </slide>
+            <slide>
+              Slide 2 Content
+            </slide>
+          </carousel>
+        </div>
+      </b-row>
+    </b-container>
     <b-container>
       <b-row>
         <h2 class="text-center">
@@ -386,6 +520,7 @@ export default {
 }
 .doll-cat {
   background-image: url('https://mannakala.com/Themes/Public/manna-kala/styles/Images/m2-bg.jpg');
+  background-size: cover;
 }
 
 .header-lego span:after {
@@ -443,5 +578,119 @@ export default {
 }
 .img-circle {
   border-radius: 50%
+}
+.bg-pattern {
+  background-image: url('https://mannakala.com/Themes/Public/manna-kala/styles/Images/pattern-bg.png');
+  background-attachment: fixed;
+}
+.rotate-hover img {
+    transition: all .25s;
+}
+.rotate-hover:hover img {
+    filter: grayscale(100%) blur(3px);
+    transform: rotate(
+15deg
+) scale(1.4);
+}
+.rotate-hover .title {
+    background-color: rgba(73,193,234,.85);
+}
+.rotate-hover .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 0;
+    transition: all .25s;
+    margin: 0!important;
+
+}
+.rotate-hover .title span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    left: 10px;
+    margin-top: -13.6px;
+}
+.rotate-hover:hover .title {
+    opacity: 1;
+}
+.rotate-hover {
+      overflow: hidden;
+    border-radius: 50%;
+}
+.main-title span:before, .main-title span:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -60px;
+    width: 25px;
+    height: 32px;
+    background: url('https://mannakala.com/Themes/Public/manna-kala/styles/Images/header-lego.png') no-repeat;
+    background-size: 25px;
+}
+.main-title span:after {
+    top: 4px;
+    right: unset!important;
+    left: -60px;
+}
+.plus-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 36px;
+    opacity: 0;
+    transition: all .25s;
+}
+
+.extended-item:hover img {
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 0 15px rgb(0 126 255 / 30%);
+}
+.extended-item img {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(0 126 255 / 15%);
+    transition: all .25s;
+}
+.extended-item:hover .plus-icons {
+    opacity: 1;
+}
+.carousel-control-prev-icon {
+    right: 0;
+    background: url('https://mannakala.com/Themes/Public/manna-kala/styles/images/slider/header-controls.png') no-repeat 0 0!important;
+}
+.carousel-control-next {
+    width: 70px!important;
+    height: 140px!important;
+    top: 39%!important;
+}
+.carousel-control-next-icon {
+  right: 0;
+    background: url('https://mannakala.com/Themes/Public/manna-kala/styles/images/slider/header-controls.png') no-repeat 0 0!important;
+}
+.product-slider a {
+  background-color: #ebecee;
+  border-radius: 40px;
+  border-bottom-right-radius: 3px;
+  margin-top: 70px;
+  transition: all .25s;
+}
+.product-slider a:hover {
+    background-color: #ff286c;
+}
+.product-slider img {
+  margin-top: -75px;
+  background: #fff;
+  margin-right: -20px;
+  box-shadow: 0 0 15px rgb(255 40 108 / 15%);
+  transition: all .25s;
+}
+.product-slider p {
+    top: 32px;
+    left: 32px;
+    transition: all .25s;
 }
 </style>
