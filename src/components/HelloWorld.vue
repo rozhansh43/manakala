@@ -247,7 +247,7 @@
 
     <b-container class="bg-pattern" fluid>
       <b-row>
-        <h2 class="main-title">
+        <h2 class="main-title text-center">
           <span class="position-relative">
            انواع اسباب بازی برای رده های سنی مختلف
           </span>
@@ -322,9 +322,41 @@
 
     <b-container>
       <b-row>
-        <h2>
-          <span>
+        <h2 class="main-title text-center">
+          <span class="position-relative">
+            برندهای اسباب بازی
+          </span>
+        </h2>
 
+        <div>
+          <carousel :perPageCustom="[[0, 2], [768, 7], [1024,7]]">
+            <slide>
+              <a href="" class="bg-hover block">
+                <div class="position-relative">
+                  <b-img src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1118_150_150_70_CropFromCenter.jpg" class="img-circle img-fluid">
+                  </b-img>
+                  
+                  <h4 class="title">
+                    <span>
+                      فیگور گرگ MOJO کد 387025
+                    </span>
+                  </h4>
+                </div>
+              </a>
+            </slide>
+            <slide>
+              Slide 2 Content
+            </slide>
+          </carousel>
+        </div>
+      </b-row>
+    </b-container>
+    
+    <b-container>
+      <b-row>
+        <h2 class="main-title text-center">
+          <span class="position-relative">
+            برندهای اسباب بازی
           </span>
         </h2>
 
@@ -343,14 +375,13 @@
         </div>
       </b-row>
     </b-container>
+
     <b-container>
       <b-row>
-        <h2 class="text-center">
-          <a href="#">
-            <span>
-              مجله کودک
-            </span>
-          </a>
+        <h2 class="main-title text-center">
+          <span class="position-relative">
+            مجله کودک
+          </span>
         </h2>
         
         <b-col md="4">
@@ -611,8 +642,7 @@ export default {
 .rotate-hover .title span {
     position: absolute;
     top: 50%;
-    right: 10px;
-    left: 10px;
+    right: 51px;
     margin-top: -13.6px;
 }
 .rotate-hover:hover .title {
@@ -681,6 +711,18 @@ export default {
 .product-slider a:hover {
     background-color: #ff286c;
 }
+.product-slider a:hover h4 span {
+    color: #fff !important;
+}
+.product-slider a:hover p {
+    color: #fff !important;
+}
+
+.product-slider a:hover button {
+    background-color: #fff !important;
+    color: #ff286c !important;
+    border: none
+}
 .product-slider img {
   margin-top: -75px;
   background: #fff;
@@ -691,6 +733,35 @@ export default {
 .product-slider p {
     top: 32px;
     left: 32px;
+    transition: all .25s;
+}
+.bg-hover .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 0;
+    transition: all .25s;
+}
+.bg-hover .title span {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    left: 10px;
+    margin-bottom: -17.85px;
+    transition: all .25s;
+}
+.bg-hover:hover .title span {
+    bottom: 50%;
+}
+.bg-hover:hover .title {
+    opacity: 1;
+    background-color: rgba(0,126,255,.9);
+}
+.bg-hover img {
     transition: all .25s;
 }
 </style>
