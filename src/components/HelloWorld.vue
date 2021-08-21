@@ -1,64 +1,72 @@
 <template>
   <div>
-    <b-container fluid class="top-header bg-primary text-white">
+    <div class="top-header bg-primary text-white">
+      <b-container>
+        <b-row>
+          <b-col class="d-flex align-items-center">
+            <span>
+             <i class="fa fa-phone fa-flip-horizontal fa-fw v-mid mg-left-5"/>
+              +9821 4465 1267
+            </span>
+
+            <span class="mx-3">
+            <i class="fa fa-map-marker fa-fw v-mid mg-left-5"/>
+              تهران، شهرک اکباتان مجتمع تجاری گلها، پلاک 144
+            </span>
+          </b-col>
+
+          <b-col class="d-flex justify-content-end header-icon">
+            <i class="fa fa-user fa-fw v-mid py-3 mx-3 my-2 d-flex justify-content-center"/>
+            <i class="fa fa-shopping-cart fa-fw v-mid py-3 mx-3 my-2  d-flex justify-content-center"/>
+            <i class="fa fa-search fa-fw v-mid py-3 mx-3 my-2 d-flex justify-content-center"/>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+    
+    <b-container>
       <b-row>
-        <b-col>
-          <i class="fa fa-phone fa-flip-horizontal fa-fw v-mid mg-left-5"></i>
-          <span>
-            +9821 4465 1267
-          </span>
+        <b-navbar toggleable="lg" type="light" variant="light" class="px-0">
+          <b-navbar-brand href="#" class="header-logo">
+            <b-img src="https://mannakala.com/Uploads/site-1/LogoImage/1.png"/>
+          </b-navbar-brand>
 
-          <i class="fa fa-map-marker fa-fw v-mid mg-left-5"></i>
-          <span>
-            تهران، شهرک اکباتان مجتمع تجاری گلها، پلاک 144
-          </span>
-        </b-col>
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-col>
-          <i class="fa fa-user fa-fw v-mid"></i>
-          <i class="fa fa-shopping-cart fa-fw v-mid"></i>
-          <i class="fa fa-search fa-fw v-mid"></i>
-        </b-col>
+          <b-collapse id="nav-collapse" is-nav class="d-flex justify-content-end">
+            <b-navbar-nav>
+              <b-nav-item href="#">
+                صفحه اصلی
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                محصولات
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                مجله کودک
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                پاسخ به سوالات شما
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                درباره ما
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                تماس با ما
+              </b-nav-item>
+
+              <b-nav-item href="#">
+                شرایط بازگشت کالا
+              </b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-navbar>
       </b-row>
     </b-container>
-
-    <b-navbar toggleable="lg" type="light" variant="light">
-      <b-navbar-brand href="#">
-        <b-img src="https://mannakala.com/Uploads/site-1/LogoImage/1.png">
-
-        </b-img>
-      </b-navbar-brand>
-
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item href="#">
-            صفحه اصلی
-          </b-nav-item>
-
-          <b-nav-item href="#">
-            مجله کودک
-          </b-nav-item>
-
-          <b-nav-item href="#">
-            پاسخ به سوالات شما
-          </b-nav-item>
-
-          <b-nav-item href="#">
-            درباره ما
-          </b-nav-item>
-
-          <b-nav-item href="#">
-            تماس با ما
-          </b-nav-item>
-
-          <b-nav-item href="#">
-            شرایط بازگشت کالا
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
 
     <div>
       <b-carousel
@@ -100,15 +108,102 @@
             </div>
           </template>
         </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Uploads/site-1/HeaderImage/31.jpg"
+              alt="image slot"
+            >
+            <img
+              class="d-block img-fluid w-100 position-absolute bottom-0"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Themes/Public/manna-kala/Styles/Images/header-btm.png"
+              alt="image slot"
+            >
+
+            <div class="carousel-passage">
+              <h2>
+                خرید اینترنتی انواع اسباب بازی با مناسب ترین قیمت در فروشگاه اسباب بازی ماناکالا
+              </h2>
+
+              <p>
+                انواع اسباب بازی ها را در فروشگاه اسباب بازی ماناکالا در دسته بندی های مختلف به همراه توضیحات و تصاویر هر کالا مشاهده نمایید و خرید خود را به صورت اینترنتی انجام دهید. تمامی کالا ها در ماناکالا با بهترین کیفیت و مناسب ترین قیمت ارائه می شود. 
+              </p>
+            </div>
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Uploads/site-1/HeaderImage/11.jpg"
+              alt="image slot"
+            >
+            <img
+              class="d-block img-fluid w-100 position-absolute bottom-0"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Themes/Public/manna-kala/Styles/Images/header-btm.png"
+              alt="image slot"
+            >
+
+            <div class="carousel-passage">
+              <h2>
+                خرید اینترنتی انواع اسباب بازی با مناسب ترین قیمت در فروشگاه اسباب بازی ماناکالا
+              </h2>
+
+              <p>
+                انواع اسباب بازی ها را در فروشگاه اسباب بازی ماناکالا در دسته بندی های مختلف به همراه توضیحات و تصاویر هر کالا مشاهده نمایید و خرید خود را به صورت اینترنتی انجام دهید. تمامی کالا ها در ماناکالا با بهترین کیفیت و مناسب ترین قیمت ارائه می شود. 
+              </p>
+            </div>
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Uploads/site-1/HeaderImage/31.jpg"
+              alt="image slot"
+            >
+            <img
+              class="d-block img-fluid w-100 position-absolute bottom-0"
+              width="1024"
+              height="480"
+              src="https://mannakala.com/Themes/Public/manna-kala/Styles/Images/header-btm.png"
+              alt="image slot"
+            >
+
+            <div class="carousel-passage">
+              <h2>
+                خرید اینترنتی انواع اسباب بازی با مناسب ترین قیمت در فروشگاه اسباب بازی ماناکالا
+              </h2>
+
+              <p>
+                انواع اسباب بازی ها را در فروشگاه اسباب بازی ماناکالا در دسته بندی های مختلف به همراه توضیحات و تصاویر هر کالا مشاهده نمایید و خرید خود را به صورت اینترنتی انجام دهید. تمامی کالا ها در ماناکالا با بهترین کیفیت و مناسب ترین قیمت ارائه می شود. 
+              </p>
+            </div>
+          </template>
+        </b-carousel-slide>
       </b-carousel>
     </div>
 
-    <b-container fluid class="doll-cat">
-        <h2 class="main-title text-center">
-          <span class="position-relative">
-            دسته بندی اسباب بازی ها
-          </span>
-        </h2>
+    <b-container fluid class="doll-cat mt-5">
+      <h2 class="main-title text-center mb-5">
+        <span class="position-relative">
+          دسته بندی اسباب بازی ها
+        </span>
+      </h2>
 
       <b-container>
         <b-row>
@@ -540,6 +635,20 @@ export default {
 </script>
 
 <style>
+.header-logo img {
+  height:60px
+}
+.nav-item a {
+  padding: 39px 16px !important;
+}
+.header-icon i {
+  border-radius: 50%;
+  transition: all .25s;
+}
+.header-icon i:hover {
+  background-color: #ff286c;
+}
+
 .carousel-passage {
   position: absolute;
   top: 27%;

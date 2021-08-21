@@ -1,3 +1,7 @@
+body {
+    font-size: 13px
+}
+
 .bg-secondary {
     background-color: #ebecee!important;
 }
