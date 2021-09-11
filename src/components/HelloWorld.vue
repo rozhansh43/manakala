@@ -26,7 +26,7 @@
     
     <b-container>
       <b-row>
-        <b-navbar toggleable="lg" type="light" variant="light" class="px-0">
+        <b-navbar toggleable="lg" type="light" variant="white" class="px-0">
           <b-navbar-brand href="#" class="header-logo">
             <b-img src="https://mannakala.com/Uploads/site-1/LogoImage/1.png"/>
           </b-navbar-brand>
@@ -221,7 +221,29 @@
           <b-col>
             <a href="#" class="extended-item">
               <div class="position-relative">
-                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/65_500_500_70_CropFromCenter.jpg">
+
+                </b-img>
+                <i class="plus-icons fa fa-plus text-success"></i>
+              </div>
+            </a>
+          </b-col>
+
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/64_500_500_70_CropFromCenter.jpg">
+
+                </b-img>
+                <i class="plus-icons fa fa-plus text-warning"></i>
+              </div>
+            </a>
+          </b-col>
+
+          <b-col>
+            <a href="#" class="extended-item">
+              <div class="position-relative">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/63_500_500_70_CropFromCenter.jpg">
 
                 </b-img>
                 <i class="plus-icons fa fa-plus"></i>
@@ -232,32 +254,10 @@
           <b-col>
             <a href="#" class="extended-item">
               <div class="position-relative">
-                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
+                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/62_500_500_70_CropFromCenter.jpg">
 
                 </b-img>
-                <i class="plus-icons fa fa-plus"></i>
-              </div>
-            </a>
-          </b-col>
-
-          <b-col>
-            <a href="#" class="extended-item">
-              <div class="position-relative">
-                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
-
-                </b-img>
-                <i class="plus-icons fa fa-plus"></i>
-              </div>
-            </a>
-          </b-col>
-
-          <b-col>
-            <a href="#" class="extended-item">
-              <div class="position-relative">
-                <b-img class="w-100 img-fluid img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/LinkImage/54_500_500_70_CropFromCenter.jpg">
-
-                </b-img>
-                <i class="plus-icons fa fa-plus"></i>
+                <i class="plus-icons fa fa-plus text-danger"></i>
               </div>
             </a>
           </b-col>
@@ -265,10 +265,56 @@
       </b-container>
     </b-container>
 
-    <b-container>
+    <b-container class="my-5 py-5 products">
       <b-row>
         <carousel :perPageCustom="[[0, 2], [768, 3], [1024,3]]">
-          <slide class="product-slider">
+          <slide class="product-slider mx-3">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/2084_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
+          </slide>
+
+          <slide class="product-slider mx-3">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/2082_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
+          </slide>
+
+          <slide class="product-slider mx-3">
             <a href="#" class="d-block text-decoration-none position-relative">
               <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
               </b-img>
@@ -290,10 +336,16 @@
               </div>
             </a>
           </slide>
+        </carousel>
+      </b-row>
+    </b-container>
 
-          <slide class="product-slider mx-3 ">
+    <b-container class="my-5 py-5 products">
+      <b-row>
+        <carousel :perPageCustom="[[0, 2], [768, 3], [1024,3]]">
+          <slide class="product-slider mx-3">
             <a href="#" class="d-block text-decoration-none position-relative">
-              <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
+              <b-img class="img-fluid bg-2 img-circle" src="	https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/618_150_150_70_CropFromCenter.jpg">
               </b-img>
 
               <h4 class="my-5 text-center">
@@ -314,7 +366,30 @@
             </a>
           </slide>
 
-          <slide class="product-slider">
+          <slide class="product-slider mx-3">
+            <a href="#" class="d-block text-decoration-none position-relative">
+              <b-img class="img-fluid bg-2 img-circle" src="	https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1059_150_150_70_CropFromCenter.jpg">
+              </b-img>
+
+              <h4 class="my-5 text-center">
+                <span class="text-dark">
+                  فیگور بچه دایناسور تیرکس MOJO کد 387192
+                </span>
+              </h4>
+
+              <p class="text-success position-absolute">
+                135,000 تومان
+              </p>
+
+              <div class="d-flex justify-content-center">
+                <b-button pill variant="primary mb-5">
+                  مشاهده و خرید محصول
+                </b-button>
+              </div>
+            </a>
+          </slide>
+
+          <slide class="product-slider mx-3">
             <a href="#" class="d-block text-decoration-none position-relative">
               <b-img class="img-fluid bg-2 img-circle" src="https://mannakala.com/Uploads/Thumbs/site-1/FeaturedImage/1395_150_150_70_CropFromCenter.jpg">
               </b-img>
@@ -341,7 +416,7 @@
     </b-container>
 
     <b-container class="bg-pattern" fluid>
-      <b-row>
+      <b-row class="d-flex justify-content-center text-center">
         <h2 class="main-title text-center">
           <span class="position-relative">
            انواع اسباب بازی برای رده های سنی مختلف
@@ -640,6 +715,7 @@ export default {
 }
 .nav-item a {
   padding: 39px 16px !important;
+  font: size 18px!important;
 }
 .header-icon i {
   border-radius: 50%;
@@ -872,5 +948,9 @@ export default {
 }
 .bg-hover img {
     transition: all .25s;
+}
+
+.products .VueCarousel-inner {
+  flex-basis: 345.333px!important;
 }
 </style>

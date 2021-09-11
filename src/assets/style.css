@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url(./fonts/Vazir-FD.5fa67fc.woff2);
+}
+
 body {
-    font-size: 13px
+    font-family: 'Vazir';
+    font-size: 13px;
 }
 
 .bg-secondary {
